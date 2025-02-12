@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+@font-face {
+    font-family: "Neo Sans Arabic"; /* اسم الخط اللي هتستخدمه */
+    src: url("/fonts/alfont_com_NeoSansArabic.ttf") ; /* مكان الخط */
+    
+}
+body{
+    background-color: #F8F8F8;
+}
+
+.arabc-font{
+    font-family: "Neo Sans Arabic"; 
+}
+.pop{
+    font-family: 'Poppins';
+}

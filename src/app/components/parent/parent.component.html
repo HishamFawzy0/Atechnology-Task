@@ -1,0 +1,21 @@
+<div class="flex justify-between items-baseline bg-white shadow-sm px-3 py-1 rounded-1 mb-3" #parent>
+    <div class="flex items-center my-[10px] px-2">
+        <i class="text-[#6FC8FF] fa-solid fa-phone"></i>
+        <p class="number px-2 arabc-font ">{{'Call Number' | translate}}</p>
+        <p>12345678</p>
+        <i class="px-2 cursor-pointer  fa-regular fa-copy"></i>
+    </div>
+    <button class=" cursor-pointer bg-gray-200 fs-5  rounded-[4px]">
+        <i class=" hover:text-red-600  transition duration-200   p-1 fa-solid fa-xmark"></i>
+    </button>
+</div>
+
+
+<div class="mx-3 grid grid-cols-3 gap-4">
+    <app-calldetails class="col-span-2">
+<ng-content ></ng-content>
+
+    </app-calldetails>
+    <app-callrecorder></app-callrecorder>
+    
+</div>
